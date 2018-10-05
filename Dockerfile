@@ -105,9 +105,10 @@ RUN apk add --no-cache \
     # php7-xsl \
     php7-zip \
     # php7-zmq \
-    && ln -sf /dev/stdout /var/log/php-fpm/access.log \
-    && ln -sf /dev/stderr /var/log/php-fpm/error.log
- 
+    && touch /var/log/php-fpm-access.log /var/log/php-fpm-error.log \
+    && ln -sf /dev/stdout /var/log/php-fpm-access.log \
+    && ln -sf /dev/stderr /var/log/php-fpm-error.log
+
 ENTRYPOINT ["/entrypoint_exec.sh", "php-fpm7"]
 
 ARG LABEL_VERSION="latest"
