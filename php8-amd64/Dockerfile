@@ -10,7 +10,7 @@ ENV \
     # container/su-exec group name \
     EGROUP=www-data \
     # container user home dir \
-    EHOME=/etc/php7 \
+    EHOME=/etc/php8 \
     # should user home dir get chown'ed? (yes/no) \
     ECHOWNHOME=yes \
     # additional directories to create + chown (space separated) \
