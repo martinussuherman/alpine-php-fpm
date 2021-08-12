@@ -111,4 +111,4 @@ RUN apk --no-cache --update add \
     && ln -sf /dev/stdout /var/log/php-fpm-access.log \
     && ln -sf /dev/stderr /var/log/php-fpm-error.log
 
-ENTRYPOINT ["entrypoint-su-exec", "php-fpm8"]
+ENTRYPOINT ["entrypoint-exec", "php-fpm8"]
