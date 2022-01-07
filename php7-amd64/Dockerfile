@@ -35,7 +35,7 @@ RUN apk --no-cache --update add \
     # php7-enchant \
     # php7-exif \
     # php7-ffi \
-    # php7-fileinfo \
+    php7-fileinfo \
     # php7-ftp \
     php7-gd \
     php7-gettext \
@@ -63,7 +63,7 @@ RUN apk --no-cache --update add \
     php7-pgsql \
     php7-phar \
     # php7-phpdbg \
-    # php7-posix \
+    php7-posix \
     # php7-pspell \
     php7-session \
     # php7-shmop \

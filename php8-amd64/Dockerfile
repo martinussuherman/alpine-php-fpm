@@ -36,7 +36,7 @@ RUN apk --no-cache --update add \
     # php8-enchant \
     # php8-exif \
     # php8-ffi \
-    # php8-fileinfo \
+    php8-fileinfo \
     # php8-ftp \
     php8-gd \
     php8-gettext \
@@ -63,7 +63,7 @@ RUN apk --no-cache --update add \
     php8-pgsql \
     php8-phar \
     # php8-phpdbg \
-    # php8-posix \
+    php8-posix \
     # php8-pspell \
     php8-session \
     # php8-shmop \
