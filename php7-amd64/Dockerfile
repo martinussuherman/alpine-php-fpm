@@ -67,7 +67,7 @@ RUN apk --no-cache --update add \
     # php7-pspell \
     php7-session \
     # php7-shmop \
-    # php7-simplexml \
+    php7-simplexml \
     # php7-snmp \
     php7-soap \
     php7-sockets \

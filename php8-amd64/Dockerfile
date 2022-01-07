@@ -67,7 +67,7 @@ RUN apk --no-cache --update add \
     # php8-pspell \
     php8-session \
     # php8-shmop \
-    # php8-simplexml \
+    php8-simplexml \
     # php8-snmp \
     php8-soap \
     php8-sockets \
