@@ -77,7 +77,7 @@ RUN apk --no-cache --update add \
     # php7-sysvsem \
     # php7-sysvshm \
     # php7-tidy \
-    # php7-tokenizer \
+    php7-tokenizer \
     php7-xml \
     php7-xmlreader \
     # php7-xmlrpc \

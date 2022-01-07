@@ -77,7 +77,7 @@ RUN apk --no-cache --update add \
     # php8-sysvsem \
     # php8-sysvshm \
     # php8-tidy \
-    # php8-tokenizer \
+    php8-tokenizer \
     php8-xml \
     php8-xmlreader \
     # php8-xmlwriter \
